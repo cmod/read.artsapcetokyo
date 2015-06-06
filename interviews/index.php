@@ -43,7 +43,7 @@
                 <span>Tokyo Art Beat</span>
               </li>
               <li>
-                <a href="/interviews/estuko-watari/">Etsuko Watari</a><br />
+                <a href="/interviews/etsuko-watari/">Etsuko Watari</a><br />
                 <span>Watari Museum</span>
               </li>
               <li>
