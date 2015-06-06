@@ -15,7 +15,7 @@
   <body class="timeline">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php'); ?>
 
-    <div class="container content">
+   <div class="container content">
       
       <div class="row">
         <div class="eightcol">
@@ -25,12 +25,23 @@
 
             <li>
               <dl>
+                <dt>2015</dt>
+                <dd><a href="/appendices/#mccaffrey">Fergus McCaffrey</a>, a New York-based gallery representing several postwar Japanese artists, announces plans to open a branch in Tokyo.</dd>
+                <dd><a href="/appendices/#kiyosumi">Kiyosumi-Shirakawa gallery building</a> closes. Taka Ishii Gallery and Tomio Koyama Gallery relocate to Sendagaya; ShugoArts relocates to Mishuku.</dd>
+                <dd><a href="/appendices/#ishii">Taka Ishii Gallery</a> opens a branch in New York.</dd>
+                <dd><a href="/appendices/#koyama">Tomio Koyama Gallery</a> closes its branch in Singapore.</dd>
+                <dd>A major group exhibition of Mono-ha is held at the Fondazione Mudima in Milan.</dd>
+              </dl>
+            </li>
+
+            <li>
+              <dl>
                 <dt>2014</dt>
-                <dd><a href="/appendices/#blumandpoe">Blum & Poe</a> to open a branch in Jingumae in September, becoming the first major international gallery to establish an outpost in Tokyo.</dd>
+                <dd><a href="/appendices/#blumandpoe">Blum & Poe</a> opens a branch in Jingumae, becoming the first major international gallery to establish an outpost in Tokyo.</dd>
                 <dd><a href="/appendices/#kaikai">Kaikai Kiki</a> opens Bar Zingaro in Nakano; closes its branch of Hidari Zingaro in Berlin.</dd>
                 <dd><a href="/appendices/#ishii">Taka Ishii Gallery</a> opens its first overseas branch in Paris.</dd>
                 <dd><em>Hi Red Center: The Documents of "Direct Action"</em> held at the Nagoya City Art Museum.</dd>
-                <dd><em>We Can Make Another Future: Japanese Art After 1989"</em> to be held at the Gallery of Modern Art, Brisbane.</dd>
+                <dd><em>We Can Make Another Future: Japanese Art After 1989</em> to be held at the Gallery of Modern Art, Brisbane.</dd>
                 <dd>Mono-ha is featured in <em>Other Primary Structures</em> at the Jewish Museum, New York.</dd>
               </dl>
             </li>
@@ -604,7 +615,7 @@
           <div class="footnotes">
 
             <h4 style="margin-top: 30px;">Note</h4>
-            <p><em>This page was last updated in June 2014. The information here is intended as an overview of key events and landmark group exhibitions; it is not meant to be comprehensive. However, if you see any crucial omissions or errors please feel free to contact <a href="mailto:support@prepostbooks.com">support@prepostbooks.com</a>. Among all the sources we have referred to, one that we particularly recommend is the interactive timeline and map published by the Museum of Modern Art, New York, on the occasion of the exhibition <a href="http://www.moma.org/interactives/exhibitions/2012/tokyo/" class="out">"Tokyo 1955–1970: A New Avant-Garde,"</a> held from November 2012 to February 2013.</em></p>
+            <p><em>This page was last updated in June 2015. The information here is intended as an overview of key events and landmark group exhibitions; it is not meant to be comprehensive. However, if you see any crucial omissions or errors please feel free to contact <a href="mailto:support@prepostbooks.com">support@prepostbooks.com</a>. Among all the sources we have referred to, one that we particularly recommend is the interactive timeline and map published by the Museum of Modern Art, New York, on the occasion of the exhibition <a href="http://www.moma.org/interactives/exhibitions/2012/tokyo/" class="out">"Tokyo 1955–1970: A New Avant-Garde,"</a> held from November 2012 to February 2013.</em></p>
           </div>
         </div>   
         <div class="threecol submenu last">
