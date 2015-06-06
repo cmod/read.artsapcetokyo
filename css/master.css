@@ -1,0 +1,381 @@
+  /*  -----------------------------------------------
+      PRE/POST CSS POST-PUSH-PULL SOMETHING SOMETHING
+      © 2012, etc etc etc
+      ----------------------------------------------- */    
+
+
+  /*  ----------------------------
+      CSS RESET
+      ---------------------------- */    
+      body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,menu,input,textarea,p,blockquote,th,td { 
+        margin:0; padding:0; 
+        }
+        
+      table { border-collapse:collapse; border-spacing:0; }
+      fieldset,img { border:0; }
+      address,caption,cite,code,dfn,strong,th,var { font-style:normal; font-weight:normal; }
+      strong { font-weight: bold; }
+      ol,ul { list-style:none; }
+      caption,th { text-align:left; }
+      h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+      q:before,q:after { content:''; }
+      abbr,acronym { border:0; }
+      p { margin-bottom: 1em; }
+      a { color: #cc092f; text-decoration: none; }
+      a:hover { color: #333; }
+      sup { height: 0; line-height: 1; bottom: 1em; }
+      
+      /* Turn on the stuff that should be on */  
+      p {
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+      }
+
+      p a { color: #cc092f; }
+      p a:hover { color: #000; }
+      a.out { color: #cc092f; border-bottom: 0px solid #cc092f; text-decoration: underline; padding-bottom: 0px; }
+      a:hover.out { color: #000; }
+      
+
+      .sc { font-size: .85em; text-transform: uppercase; letter-spacing: 1px; }
+
+
+
+  /*  ----------------------------
+      GENERAL
+      ---------------------------- */      
+    	body { 
+        background-color: #fff; 
+        color: #333;
+        font-size: 62.5%; /* -- Sets 1em to equal 10px ---------------------------------*/  
+        font-family: "ff-meta-serif-web-pro",georgia, serif;
+        font-style: normal;
+        font-weight: 400;
+        } 
+      
+      h1, h2 { 
+        font-family: "Fedra Serif Display Medium";
+        font-style: normal;
+        font-stretch: normal;
+        -moz-font-feature-settings: "liga=1, dlig=1";
+        -ms-font-feature-settings: "liga", "dlig";
+        -webkit-font-feature-settings: "liga", "dlig";
+        -o-font-feature-settings: "liga", "dlig";
+        font-feature-settings: "liga", "dlig";
+        }
+        
+      h3, h4, h5 { 
+        font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif;
+        font-style: normal;
+        font-stretch: normal;        
+        }
+        
+      p, li, blockquote { font-size: 1.7em; line-height: 1.5em; }
+      
+      .fourcol p, .fourcol li, .fourcol blockquote { font-size: 1.5em; }        
+      
+
+
+  /*  ----------------------------
+      HEADER
+      ---------------------------- */      
+    	header { 
+      	margin-bottom: 60px; 
+        background-color: rgba(255,255,255,0.9);
+      	/*position: fixed;
+      	background-color: rgba(255,255,255,0.9);
+      	top: 0;*/
+      	}
+      	
+      	header h1 {       	
+          font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif;
+          font-style: normal;
+          font-stretch: normal;
+          font-size: 3em;
+          width: 300px;
+          float: left;
+          }
+          header h1 a { color: #000; }
+            header h1 a:hover { color: #cc092f; }
+                    
+      	nav.main { 
+        	border-top: 5px solid #000;
+        	padding-top: 20px; 
+        	padding-bottom: 20px;
+        	}
+        
+          nav.main .scroller { padding-bottom: 10px; padding-top: 10px; background-color: rgba(255,255,255,0.9); border-bottom: 1px dotted #ddd;  }
+
+        	nav.main ul { float: left; clear: both; margin-left: -10px; }
+        	 nav.main ul li { 
+            display: inline; 
+            margin-left: 0px; 
+            font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-stretch: normal;
+            text-transform: uppercase;
+            line-height: 35px;
+            font-size: 1.4em;
+        	  }
+        	  nav.main ul li a { padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; }
+
+        	  nav.main .meta ul { margin-left: -5px; margin-top: 5px; }
+        	  nav.main .meta ul li { font-size: 1.1em; line-height: 1em; }
+          	  nav.main .meta ul li a { padding-left: 5px; padding-right: 5px; }
+
+      .meta { float: right; margin-top: 5px; }
+        .meta p { margin: 0; font-size: 1.2em; font-family: "Fedra Sans Book", Helvetica, Arial, sans-serif; }
+        .meta p a { border: 0; color: #cc092f; }
+        .meta p a:hover { color: #000; line-height: 1em; }
+
+
+
+  /*  ----------------------------
+      SUBMENU
+      ---------------------------- */
+      nav.secondary { margin-bottom: 20px; border-bottom: 0px dotted #ddd; margin-bottom: 30px; padding-bottom: 20px; }
+        nav.secondary li { font-size: 1.3em; margin-bottom: .5em; font-family: "Fedra Sans Book", Helvetica, Arial, sans-serif; }
+          nav.secondary li a { display: block; padding: 2px 0; }
+          nav.secondary li a:hover { background-color: #efefef; border-radius: 2px; }
+          nav.secondary li a.active { margin-left: 0px; color: #000; background-color: #fff; border-radius: 3px; }
+
+      .submenu { float: right; padding: 10px; padding-top: 20px; background-color: #f7f7f7; border-radius: 5px; text-align: center; }
+        .submenu h2 { font-size: 1.6em; text-transform: uppercase; letter-spacing: 1px; text-shadow: 1px 1px 0px #fff; margin-bottom: 2em; }
+        .submenu h4 { font-size: 1.3em; font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif; padding-bottom: 3px; text-transform: uppercase; margin-bottom: .5em; border-bottom: 0px solid #fff; text-shadow: 1px 1px 0px #fff; }
+        .preface .submenu ol { margin-bottom: 2em; padding-bottom: 1em; border-bottom: 1px dotted #ddd; }
+        .preface .submenu ol.last { border: 0; }
+
+      .sidepurchase { font-size: .8em; text-transform: uppercase; letter-spacing: 1px; }
+
+
+  /*  ----------------------------
+      CONTENT
+      ---------------------------- */      
+      .content { margin-top: 0px; background: transparent url(/images/misc/content_bg.png) center bottom no-repeat; background-size: 1400px auto; padding-bottom: 150px; }
+      .content_head { margin-bottom: 40px; }
+        body.space .content_head { min-height: 700px; }
+      .content_head h1 { font-size: 3em; }
+      .content_head h2.location { margin-left: 5%; font-size: 1.2em; text-transform: uppercase; letter-spacing: 1px; }
+      .content_head h2.subtitle { margin-left: 5%; font-size: 1.4em; margin-bottom: 5px; }
+      .content h3 { font-size: 1.4em; text-transform: uppercase; letter-spacing: 1px; }
+      
+      .homesales { text-align: center; padding-top: 20px; margin: 20px 0px; border-top: 1px dotted #ddd; border-bottom: 1px dotted #ddd; float: left; }
+        .homesales h3 span { font-size: .7em; height: .7em; line-height: .7em; }
+      
+      blockquote { margin-left: 3em; margin-right: 3em; font-size: inherit; }
+        blockquote { font-size: inherit; font-style: italic; }
+      
+      .about { margin-bottom: 5em; }
+      
+      .about_float { position: absolute; z-index: 4; top: 270px; width: 95%; max-width: 1140px; min-width: 1140px; }
+        .about_float.right .about { float: right; }
+        .about_float.left .about { float: left; }
+        .about_float .about { width: 400px; font-size: .9em; }
+        
+      .bio { margin-top: 20px; padding-top: 20px; }
+        .bio p { font-size: 1.4em; }
+        .bio h4 { font-size: 1.4em; }
+        .bio.bottom { border-top: 1px dotted #ddd; }
+      
+      .gallery_info { margin-bottom: 5em; }
+        .gallery_info p { -webkit-column-count: 2; -webkit-column-gap: 20px; -moz-column-count: 2; -moz-column-gap: 20px; font-size: 1.4em; }
+
+      .map figcaption { font-size: 1.2em; margin-bottom: 1em; }
+
+      .interview_body { padding-top: 40px; clear: both; }
+      .interview_body p.ast { padding-left: 30px; margin-top: 2em; margin-bottom: 0; font-style: italic; background: transparent url(/images/misc/space_dot.png) 2px 3px no-repeat; }
+      .interview_body p.other { margin-left: 30px; }
+        .interview_body p.other span { 
+            float: left; 
+            margin-left: -30px; 
+            font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-stretch: normal;
+            font-size: .65em;
+            letter-spacing: 1px;
+            margin-top: -1px;
+            }
+        
+        .interview_body p.other span.sc { margin: inherit; font-family: inherit; margin: 0; font-size: .85em; float: none; font-weight: inherit; }
+                
+      .footnotes { font-size: .8em; font-family: "Fedra Sans Book", Helvetica, Arial, sans-serif; border-top: 1px dotted #ddd; padding-top: 20px; margin-top: 20px; }
+        .footnotes h4 { font-size: 1.6em; margin-bottom: 5px; }
+        .footnotes ol { margin-left: 30px; list-style-type: decimal; }
+
+      .acknowledgements .content h1, .appendix .content h1, .timeline .content h1 { font-size: 3em; margin-bottom: .5em; }
+      .acknowledgements h2, .appendix h2, .timeline h2 { font-size: 1.6em; text-transform: uppercase; font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif;  }
+      .acknowledgements .content p { margin-left: 1em; }
+      
+      .patrons { text-align: center; float: right; }
+      .acknowledgements .patrons p { font-size: 1.2em; text-transform: uppercase; line-height: 1.8em; }
+
+      .toc .content { text-align: center; }
+        .toc .content h1 { font-size: 3em; margin-bottom: 40px; }
+        .toc h2 { font-size: 1.6em; text-transform: uppercase; margin-bottom: 40px; }
+        .toc ol { list-style-position: inside; }
+          .toc ol li { list-style-type: decimal; line-height: 1em; /*list-style-position: outside; margin-left: 35px;*/ margin-bottom: 10px; }
+          .toc ol li span {
+            font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-stretch: normal;
+            font-size: .7em;
+            text-transform: uppercase;
+            }
+            
+        .toc .spacebg     { background: transparent url(/images/spaces/watari.png) right -30px no-repeat; }
+        .toc .interviewbg { background: transparent url(/images/people/yamamoto-smaller.png) 650px 40px no-repeat; }
+        .toc .essaybg     { background: transparent url(/images/spaces/aoyama-smaller.png) 200px -20px no-repeat; }
+
+      .preface .content h1 { font-size: 2.4em; margin-bottom: .5em; }
+      .preface .content h2 { margin-left: 0em; font-size: 1.7em; font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif; }
+      .preface .prefaceblock { padding-bottom: 2em; margin-bottom: 3em; border-bottom: 1px dotted #ddd; }
+      .preface .content p { margin-left: 1em; }
+
+
+  /*  ----------------------------
+      APPENDIX
+      ---------------------------- */
+      h1#b, h1#c, h1#d { margin-top: 3em; padding-top: 3em; border-top: 1px dotted #ddd; }
+      .appendix dl { margin-left: 2em; }
+      .appendix dt { font-size: 1.4em; text-transform: uppercase; letter-spacing: 1px; }
+      .appendix dd { font-size: 1.7em; line-height: 1.5em; margin-left: 2em; margin-bottom: 1em; }
+
+
+  /*  ----------------------------
+      TIMELINE
+      ---------------------------- */
+
+      .timeline ol { margin-bottom: 30px; }
+      .timeline li { margin-top: 1em; }
+      .timeline dl { margin-left: 2em; }
+      .timeline dt { float: left; width: 2em; display: block; font-size: .8em; }
+      .timeline dd { margin-left: 4em; text-indent: -1em;  }
+      .timeline .event { color: #999; }
+
+
+  /*  ----------------------------
+      FOOTER DETAILS
+      ---------------------------- */      
+      footer { 
+        font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif;
+        font-style: normal;
+        font-stretch: normal;        
+
+        letter-spacing: 0px; 
+        font-size: 1.2em; 
+        border-bottom: 3px solid #000; 
+        border-top: 1px dotted #ddd; 
+        /*margin-top: 60px !important; */
+        padding-bottom: 20px; 
+        padding-top: 20px; 
+        }
+  
+        footer .follow { float: right; }
+  
+
+  /*  ----------------------------
+      FOR TINY WINDOW PEOPLE
+      ---------------------------- */      
+
+      @media handheld, only screen and (max-width: 767px), only screen and (max-device-width: 767px), only screen and (device-width: 768px) {
+      
+        body {
+        	font-size: 55% !important;
+        	-webkit-text-size-adjust: none;
+        	}
+        
+        .row, body, .container {
+        	width: 100%;
+        	min-width: 0;
+        	margin-left: 0px;
+        	margin-right: 0px;
+        	padding-left: 0px;
+        	padding-right: 0px;
+        	}
+        
+        .row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+        	width: auto;
+        	float: none;
+        	margin-left: 0px;
+        	margin-right: 0px;
+        	padding-left: 20px;
+        	padding-right: 20px;
+        	}
+        
+        header { background-color: #f7f7f7; box-shadow: 0px 1px 3px #eee; }
+          header h1 { width: 100% !important; text-align: center; }
+          header .main, header .main ul { text-align: center; width: 100%; }
+          
+          header .meta { padding-top: 2em; }
+          header .meta, header .meta li { clear: both; text-algin: center; }
+
+          nav.main .scroller { padding-bottom: 10px; padding-top: 10px; background-color: transparent; border-bottom: 0px; position: relative !important; }
+
+          header nav.main ul { margin: 0; }
+          nav.main .meta ul { margin-left: 0; }
+        
+        nav.secondary li { font-size: 1.5em; }
+        
+        .content_head h1 { text-align: center; }
+          .content_head h1 br { display: none; }
+        .content_head h2 { text-align: center; margin-left: 0; }
+          .content_head h2.location { text-align: center; margin-left: 0; }
+          .content_head h2.subtitle { text-align: center; margin-left: 0; }
+          
+        .gallery_info p { -webkit-column-count: 1; }
+        .about_float { position: static; float: none; min-width: inherit; max-width: inherit; }
+          .about_float .about { width: auto; } 
+          
+        body.space .content_head { min-height: inherit; }
+        
+        .footnotes { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px dotted #ddd; }
+
+        .bio.bottom { border: 0; margin-top: 0px; padding-top: 0px; }
+
+        .acknowledgements h1, .appendix h1, .timeline h1 { font-size: 2.4em; margin-bottom: .5em; text-align: center; }
+        .acknowledgements h2, .appendix h2, .timeline h2 { font-size: 1.6em; text-align: center; text-transform: uppercase; font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif;  }
+        .acknowledgements .content p { margin-left: 1em; text-align: center; margin-left: 0; }
+        .patrons h1 { margin-top: 3em; }
+
+
+        .appendix .submenu { display: none; }
+        .timeline h1 br { display: none; }
+        .timeline dl { margin-left: 0em; }
+        
+        footer { text-align: center; }
+          footer .follow { clear: both; width: 100%; margin-top: 10px; }
+          
+        .toc .spacebg     { background: transparent url(/images/spaces/watari-opacity.png) right -30px no-repeat; }
+        .toc .interviewbg { background: transparent url(/images/people/yamamoto-smaller-opacity.png) center top no-repeat; }
+        .toc .essaybg     { background: transparent url(/images/spaces/aoyama-smaller-opacity.png) center top no-repeat; }
+
+        .preface .content h1 { font-size: 2.4em; margin-bottom: .5em; text-align: center; }
+        .preface .content h2 { margin-left: 0em; font-size: 1.7em; font-family: "Fedra Sans Medium", Helvetica, Arial, sans-serif; }
+        .preface .prefaceblock { padding-bottom: 2em; margin-bottom: 3em; border-bottom: 1px dotted #ddd; }
+        .preface .content p { margin-left: 0em; }
+
+
+
+      }
+
+
+
+      @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+      
+        .interview_body p.ast { background: transparent url(/images/misc/space_dot@2x.png) 2px 3px no-repeat; background-size: 15px 15px; }
+      
+      }
+
+
+
+
+      @media only screen and (device-width: 768px) {
+        
+        .row {
+          width: 500px;
+          margin: 0px auto;
+          }
+
+        
+      }
