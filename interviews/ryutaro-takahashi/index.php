@@ -30,9 +30,9 @@
       <div class="row">
         <div class="eightcol">
           
-          <!-AUTHOR / INTERVIEW BIOS -->
+          <!--AUTHOR / INTERVIEW BIOS -->
           <div class="bio">
-            <!-BIO IMAGE ON LEFT -->
+            <!--BIO IMAGE ON LEFT -->
             <div>
               <div class="fourcol">
                 <img src="/images/people/takahashi.png" alt="Ryutaro Takahashi" />
@@ -44,7 +44,7 @@
             </div>
           </div>
           
-          <!-INTERVIEW BODY -->
+          <!--INTERVIEW BODY -->
           <div class="interview_body">
             <p class="ast">What led you to start collecting?</p>
             <p class="other"><span>RT</span>I started collecting in 1997, after seeing an exhibition of Yayoi Kusama at Ota Fine Arts. To me, Kusama represented the psychological or cultural spirit of the anti-establishment movements of the 1960s, so to be in possession of such a person’s work was quite an emotional experience. However, for about two years after the bubble burst, I had already been wandering through second-tier galleries, encountering previously expensive works of art sold at deep discounts. Prints by various American Pop artists, including Andy Warhol and Jim Dine, were so cheap that I had already begun buying them from time to time. Back then I simply wanted them as art for my room or the clinic. It wasn’t until 1997 that I spent a substantial amount of money on art.</p>
@@ -75,7 +75,7 @@
             <p class="other"><span>RT</span>It shows two opposing sides of the Japanese character: one side represents the delicate sensibilities that the Japanese possess, while the other reveals their brutality. To express those qualities through a woman is amazing. In the world of <em>ukiyoe</em>, you found this contrast in Kitagawa Utamaro’s beautiful shades versus Ekin’s depiction of the world in blood-red colors. But in Makoto Aida, those two contrasting worlds exist in one artist. That’s what makes him great and attractive to the youth of today.</p>
             
             <p class="ast">Why do you think there aren’t many collectors of contemporary art in Japan?</p>
-            <p class="other"><span>RT</span>his may sound strange, but I think that contemporary art has yet to find acceptance in Japan. Impressionism is still at the forefront of many Japanese people’s minds when it comes to thinking about art; there are still so many exhibitions of Impressionist works that draw huge crowds. There was a time in the 1950s and ’60s when the Gutai artists had worldwide renown, but they didn’t achieve the same level of recognition within Japan. It was the same for Mono-ha in the 1960s and ’70s, which was at the vanguard of the world art scene, but somehow it didn’t enter the Japanese consciousness.</p>
+            <p class="other"><span>RT</span>This may sound strange, but I think that contemporary art has yet to find acceptance in Japan. Impressionism is still at the forefront of many Japanese people’s minds when it comes to thinking about art; there are still so many exhibitions of Impressionist works that draw huge crowds. There was a time in the 1950s and ’60s when the Gutai artists had worldwide renown, but they didn’t achieve the same level of recognition within Japan. It was the same for Mono-ha in the 1960s and ’70s, which was at the vanguard of the world art scene, but somehow it didn’t enter the Japanese consciousness.</p>
             
             <p class="ast">Do tax laws in Japan have an effect on buying habits?</p>
             <p class="other"><span>RT</span>In South Korea, any gains from art are tax-free; even inheriting art is tax-free. Plus, companies can pay for artwork over a seven-year period. Wouldn’t that encourage anyone to buy art? Tax issues certainly have a lot to do with how a country that size has come to be so flush with contemporary art. Then again, during the bubble years everybody was buying art regardless of tax issues. Supporting contemporary artists by buying their work is the social responsibility of those who have the money to do so. While that spirit of sponsorship was more evident in prewar Japan, it disappeared with the postwar spread of democratic and egalitarian principles, which advocated the equal distribution of wealth and didn’t encourage the creation of a wealthier social class that could afford to patronize the arts.</p>
