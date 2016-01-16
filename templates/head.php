@@ -106,6 +106,5 @@
         });
     </script>  
 
-    <script src="http://artspacetokyo.com/mint/?js" type="text/javascript"></script>  
 
     </head>
