@@ -24,7 +24,8 @@
             
             <h1>Digital Edition Preface (2012)</h1>
             <p><em>Four</em> seasons of cherry blossoms have come and gone since we published the first edition of <em>Art Space Tokyo</em>. We're happy to finally bring the book online — here, on this website — and release it on all major digital publishing platforms.</p>
-            <p>You can purchase it directly from <a href="<?=$amazonlink?>">Amazon</a>, <a href="<?=$ituneslink?>">iTunes (for iBooks)</a>, or <a href="<?=$bnlink?>">Barnes &amp; Noble</a>. You can also purchase a collection of <span class="sc">DRM</span> free ebook files directly from us as a <a href="<?=$bundlelink?>">bundle</a>.</p>
+            <p>You can purchase it directly from <a href="<?=$amazonlink?>">Amazon</a>, <a href="<?=$ituneslink?>">iTunes (for iBooks)</a> or <a href="<?=$bnlink?>">Barnes &amp; Noble</a>.</p> 
+            <p>As of 2016 you can also download a collection of <span class="sc">DRM</span> free ebook files <a href="<?=$bundlelink?>">directly from us</a> for free.</p>
 
             <div class="homesales">
               <div class="fourcol">
