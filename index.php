@@ -41,13 +41,13 @@
               </div>
               <div class="fourcol last">
                 <a href="<?=$bundlelink?>">
-                  <h3>Bundle —<br /> .mobi, .epub, .pdf <span>($14.99)</span></h3>
+                  <h3>Bundle —<br /> .mobi, .epub, .pdf <span>(FREE)</span></h3>
                   <img src="/images/misc/sales-all.jpg" />
                 </a>
               </div>
               <div class="twelvecol">
                 <a href="http://prepostbooks.com/physical/artspacetokyo/">
-                  <h3>Physical Edition<br /> Includes digital bundle</h3>
+                  <h3>Physical Edition<br /> Includes digital bundle (SOLD OUT)</h3>
                   <img src="/images/misc/physical_banner-circle-small-white.jpg" width="250" alt="Art Space Tokyo physical edition" />
                 </a>
               </div>
